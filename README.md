@@ -4,7 +4,7 @@
   - Open the link that is located under Bucket website endpoint and it returns 403 authentication/access issue
   - Head to s3 bucket permission and make sure the the bucket is public; if not, disable to block public access  and edit the "Bucket policy" and add the bucket permission policy there as follows;
    
-    {
+    ```{
         "Version": "2012-10-17",
         "Statement": [
             {
@@ -19,7 +19,7 @@
                 ]
             }
         ]
-    }
+    ```}
 
     - And save the changes
     - Head to s3 bucket properties and click on the link provided under "Static website hosting"
