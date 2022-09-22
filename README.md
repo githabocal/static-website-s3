@@ -19,7 +19,7 @@
                 ]
             }
         ]
-    ```}
+    }```
 
     - And save the changes
     - Head to s3 bucket properties and click on the link provided under "Static website hosting"
